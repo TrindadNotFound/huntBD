@@ -1,0 +1,465 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body
+{
+    background: #363636;  
+    box-sizing: border-box;
+}
+
+h1, h2, h3
+{
+    text-align: center;
+    color: #39ca74;
+}
+
+/*BEGIN NAVBAR*/
+.navbar
+{
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+}
+
+.navbar h1
+{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: #39ca74;
+}
+
+.navbar ul
+{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+.navbar li
+{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.navbar a
+{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.navbar a:hover
+{
+    color: #f0c330;
+    transition: 0.5s;
+}
+/*END NAVBAR*/
+
+/*INDEX BANNER TEXT*/
+.index-banner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+}
+
+.index-banner p
+{
+    padding: 0 8%;
+}
+
+.index-banner h1
+{
+    padding: 10px;
+    color: #39ca74;
+}
+/*END INDEX BANNER TEXT*/
+
+/*FOOTER*/
+footer
+{
+    text-align: center;
+    background-color: #282828;
+    color: whitesmoke;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+/*END FOOTER*/
+
+
+/*LOGIN FORM*/
+.login_box
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.login_box h1
+{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.login_box a
+{
+    font-size: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.login_box a:hover
+{
+    color: #39ca74;  
+}
+
+.login_box label
+{
+    color: whitesmoke;
+}
+
+.login_box input[type = "text"],.login_box input[type = "password"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 17px;
+}
+
+.login_box input[type = "text"]:focus,.login_box input[type = "password"]:focus
+{
+    width: 280px;
+    border-color: #2ecc71;
+    font-size: 17px;
+}
+
+.login_box input[type = "submit"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #39ca74;
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.login_box input[type = "submit"]:hover
+{
+    background: #39ca74;
+}
+/*END LOGIN FORM*/
+
+
+/*CONTAINER REGISTER*/
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 16px;
+}
+
+.grid-item
+{
+    padding: 10px;;
+}
+
+.grid-container h1
+{
+    color: #39ca74;
+    font-weight: 500;
+}
+
+.grid-container p
+{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.grid-item input[type = "text"], .grid-item input[type = "password"], .grid-item input[type = "date"], .grid-item select
+{
+    border:0;
+    background: none;
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 17px;
+}
+
+.grid-item option
+{
+    color: black;
+}
+
+.grid-item legend
+{
+    color: whitesmoke;
+    margin: auto;
+}
+
+.grid-item label
+{
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.grid-item input[type = "text"]:focus, .grid-item input[type = "password"]:focus, .grid-item input[type = "date"]:focus
+{
+    border-color: #2ecc71;
+    font-size: 17px;
+}
+
+
+.grid-item input[type = "submit"]
+{
+    border:0;
+    background: none;
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #39ca74;
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.grid-item input[type = "submit"]:hover
+{
+    background: #39ca74;
+}
+
+.grid-item textarea {
+    width: 700px;
+    height: 350px;
+  }
+/*END CONTAINER REGISTER*/
+
+
+/*MAIN CONTAINER*/
+.main-container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    padding: 16px;
+}
+
+.main-item
+{
+   padding: 20px;
+   color: whitesmoke;
+}
+
+.main-item > h1
+{
+    color: #39ca74;
+    font-weight: bold;
+}
+/*END MAIN CONTAINER*/
+
+
+/*USERS OPTIONS*/
+.opcions_box
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+
+.list_options
+{
+    list-style: none;
+    padding:10px;
+}
+
+.list_options a
+{
+    border:0;
+    background: none;
+    display: inherit;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #39ca74;
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.list_options a:hover
+{
+    background: #39ca74;
+}
+/*END USER OPTIONS*/
+
+
+
+/*CORRIGIR ESTE CSS PARA MELHORAR AS TABELAS QUE MOSTRAM OS DADOS
+SOBRE OS EVENTOS QUE ESTÃO DESPONIVEIS E, OS QUE O UTILIZADOR ESTA INSCRITO*/
+
+.content_table
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px; 
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content_table thead tr
+{
+    background-color: #39ca74;
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content_table th, td
+{
+    padding: 12px 15px;
+}
+
+
+.content_table tbody tr
+{
+  background-color: #f3f3f3;
+}
+
+.content_table tbody tr:nth-child(even) 
+{
+    background-color: green;
+}
+
+.content_table a
+{
+    text-decoration: none;
+}
+/*========================================================*/
+
+
+/* GALERIA */
+.slider
+{
+    width: 800px;
+    height: 400px;
+    background: url(../img_event/p1.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+ 
+@keyframes slide
+{
+    25%
+    {
+        background: url(../img_event/p2.jpg);
+    }
+
+    50%
+    {
+        background: url(../img_event/p1.jpg);
+    }
+
+    75%
+    {
+        background: url(../img_event/p2.jpg);
+    }
+
+    100%
+    {
+        background: url(../img_event/p1.jpg);
+    }
+}
+/*========================================================*/
+
+
+
+/*BOTÕES ALEATORIOS*/
+.random-button button
+{
+    border:0;
+    background: none;
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #39ca74;
+    padding: 11px 10px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.random-button button:hover
+{
+    background: #39ca74;
+}
+/*========================================================*/
